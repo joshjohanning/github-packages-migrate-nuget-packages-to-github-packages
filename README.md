@@ -24,7 +24,7 @@ This finds all `.nupkg` files in the current directory and generates a mappings 
 
 Afterwards, you need to edit the `csv` file to add the target GitHub repo reference, in the form of `owner/repo`.
 
-Leave a trailing space at the end of the csv file.
+Leave a trailing space at the end of the `csv` file.
 
 ### Migrate the Packages
 
