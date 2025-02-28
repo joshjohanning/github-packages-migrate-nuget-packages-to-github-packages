@@ -24,7 +24,7 @@ fi
 
 dir=$1
 
-results=$(find $dir -name "*.nupkg")
+results=$(find $dir -name "*.nupkg" | sort)
 
 echo "Package,Target GitHub Repo"
 
