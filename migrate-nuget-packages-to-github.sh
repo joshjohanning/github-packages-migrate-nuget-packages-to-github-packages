@@ -39,5 +39,5 @@ do
     # set target github repo to second column
     target_github_repo=$(echo "$package" | cut -d, -f2)
     echo "Migrating $package_name to $target_github_repo"
-    eval $GPR_PATH push ./$package_name --repository https://github.com/$target_github_repo -k $PAT
+    eval $GPR_PATH push $package_name --repository https://github.com/$target_github_repo -k $PAT
 done
